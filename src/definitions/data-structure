@@ -2,47 +2,67 @@ Please answer the below Data Structure Questions:
 
 Q. why do we need data structure?
 A.
+Data structure defines how data is organized, managed, and stored. These data elements provide an efficient way of
+storing and organizing data in the computer making possible utilizing them more efficiently.
 
 ------------------------------------------------------------------------------------------------------------------------
 What are the various operations that can be performed on different Data Structures?
 A.
-
+- The operations on the linear data structure are: Traversal, Insertion, Deletion, Searching, Sorting and Merging.
+- The operations on the nonlinear data structure are: Tree, Graph.
 ------------------------------------------------------------------------------------------------------------------------
 Q. List out the areas in which data structures are applied extensively?
-A.
+A. Operating System, Compiler Design, Numerical Analysis, Graphics,Simulation,Artificial Intelligence, ..etc.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is an Array?
-A.
+A. Array is an object which contains elements of a similar data type.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between the Array and ArrayList?
-A.
+A. Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
+We cannot change length of array once created in Java but ArrayList can be changed. We cannot store primitives in
+ArrayList, it can only store objects. But array can contain both primitives and objects in Java.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is LinkedList?
-A.
+A. The LinkedList is a collection which can contain many objects of the same type, just like the ArrayList.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. How is an ArrayList different from Linked List?
 A.
-
+ArrayList est essentiellement un tableau. LinkedList est implémenté comme une liste à double lien.
+ArrayList permet un accès aléatoire en utilisant des index.
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is the difference between the HashTable and HashMap?
-A.
+A. HashMap et HashTable en Java sont deux structures de données importantes dans le Collection Framework qui ont des
+points communs entre elles. Les deux implémentent l'interface Map. Les deux stockent les données sous la forme de paires
+clé-valeur.
+Mais, il existe aussi des différences significatives entre eux. HashMap n'est pas thread-safe alors que HashTable est
+thread-safe.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model?
 A.
+- Array of structures is used in RDBMS;
+- Graph is used in Network data model;
+- Trees are use in Hierarchical data model.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. How HashMap works in java?
-A.
+A. HashMap fonctionne sur le principe du hachage - un algorithme pour mapper les données d'objet à une valeur entière
+représentative. La fonction de hachage est appliquée à l'objet clé pour calculer l'index afin de stocker et de récupérer
+toute paire clé-valeur.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What is ArrayIndexOutOfBoundsException in java? When it occurs?
-A.
+A. ArrayIndexOutOfBoundsException est une des erreurs en Java. Ce dernier se produit lorsqu'un programme tente d'accéder
+à un index invalide dans un tableau.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. What are the different ways of copying an array into another array?
 A.
+- On peut utiliser For loop et copier les éléments de l'un à l'autre un par un;
+- On peut aussi utilise la méthode System.arraycopy();
+- Ou encore utuliser la méthode clone pour cloner an array;
+- Ainsi, on peut copier les Arrays en utilisant la méthoder de arraycopy().

@@ -13,6 +13,10 @@ public class Palindrome {
     public static void main(String[] args) {
 
         //write your code here
+        String strings = "MOM";
+        for(int i = 0 ; i < strings.length()/2 ; i++) {
+        }
+        System.out.println(strings+" is a Palindrom.");
 
     }
 }

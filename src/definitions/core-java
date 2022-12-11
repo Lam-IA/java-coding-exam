@@ -120,7 +120,7 @@ Q. What is API? Name list of API that you have used so far.
 A.
 Application programming interfaces (APIs) are predefined software tools that easily enable interactivity between
 multiple applications.
-I used Public APIs and Private APIs.
+I used class, scanner, BufferedReader, FileReader, string, arraylist, linkedlist, hushmap.
 
 ------------------------------------------------------------------------------------------------------------------------
 Q. Does java support multiple inheritance?
